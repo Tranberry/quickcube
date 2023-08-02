@@ -11,5 +11,7 @@ String tweeStart(String? projectName) {
 
 :: StoryTitle
 $projectName
+
+:: Start
 ''';
 }
