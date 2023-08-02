@@ -1,6 +1,6 @@
 import 'package:quickcube/ifid.dart';
 
-String get tweeStart {
+String tweeStart(String? projectName) {
   return '''
 :: StoryData
 {
@@ -10,5 +10,6 @@ String get tweeStart {
 }
 
 :: StoryTitle
+$projectName
 ''';
 }
