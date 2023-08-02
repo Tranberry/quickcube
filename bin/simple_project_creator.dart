@@ -1,9 +1,8 @@
 import 'dart:io';
 import 'package:path/path.dart' as path;
 
-import 'package:quickcube/js_config.dart';
-import 'package:quickcube/json_tasks.dart';
 import 'package:quickcube/read_arguments.dart';
+import 'package:quickcube/simple_file_content.dart';
 import 'package:quickcube/twee_start.dart';
 
 import 'package:quickcube/print_helpful_commands.dart';
