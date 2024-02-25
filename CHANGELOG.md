@@ -6,3 +6,7 @@
 
 - fix IFID generation
 - added empty `:: Start` 
+
+## 0.1.2
+
+- sanitizing user input
