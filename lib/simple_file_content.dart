@@ -56,3 +56,15 @@ String get assetsNote {
 // place images, fonts and other assets here
 ''';
 }
+
+// Add node package
+// npm i @types/twine-sugarcube
+String get nodePackageContent {
+  return '''
+{
+  "devDependencies": {
+    "@types/twine-sugarcube": "*"
+  }
+}
+''';
+}
